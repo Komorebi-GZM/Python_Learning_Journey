@@ -1,0 +1,40 @@
+# Python 运行缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook 临时缓存
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# VS Code 配置：保留你的环境settings，忽略其他缓存
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+
+# 本地虚拟环境（你的conda环境不在这个文件夹里，不影响）
+.env
+.venv
+env/
+venv/
+ENV/
