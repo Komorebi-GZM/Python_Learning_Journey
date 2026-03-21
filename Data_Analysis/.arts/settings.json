@@ -1,8 +1,8 @@
 {
-    "python.defaultInterpreterPath": "C:\\Users\\48769\\.conda\\envs\\pda\\python.exe",
+    "python.defaultInterpreterPath": "${env:CONDA_PREFIX}\\python.exe",
     "jupyter.kernelSpec": {
         "name": "pda",
-        "python": "C:\\Users\\48769\\.conda\\envs\\pda\\python.exe"
+        "python": "${env:CONDA_PREFIX}\\python.exe"
     },
     "jupyter.runStartupCommands": [
         "import numpy as np",
