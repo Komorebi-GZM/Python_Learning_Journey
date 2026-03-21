@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\48769\\.conda\\envs\\pda\\python.exe",
+    "jupyter.kernelSpec": {
+        "name": "pda",
+        "python": "C:\\Users\\48769\\.conda\\envs\\pda\\python.exe"
+    },
+    "jupyter.runStartupCommands": [
+        "import numpy as np",
+        "import pandas as pd",
+        "import matplotlib.pyplot as plt",
+        "import seaborn as sns",
+        "plt.rcParams['font.sans-serif'] = ['SimHei']",
+        "plt.rcParams['axes.unicode_minus'] = False"
+    ]
+}
